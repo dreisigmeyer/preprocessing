@@ -1,0 +1,6 @@
+[submodule "carra_prep2"]
+	path = carra_prep2
+	url = git@github.com:dreisigmeyer/carra_prep2.git
+[submodule "assignee_prep2"]
+	path = assignee_prep2
+	url = git@github.com:dreisigmeyer/assignee_prep2.git
