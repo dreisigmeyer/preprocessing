@@ -1,7 +1,11 @@
 #!/bin/bash
 
 NUM_PY_THREADS=$1
-cd carra_prep2
+cd carra_prep2/dat_to_xml
+./get_uspto_data.sh
+cd ../xml_rewrite
+./get_uspto_data.sh
+cd ../
 ./doitall.sh $NUM_PY_THREADS
 cd ../assignee_prep2
 cp ../carra_prep2/outputs/csv_output/prdn_metadata.csv ./csv_data/
