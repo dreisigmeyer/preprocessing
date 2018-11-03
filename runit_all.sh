@@ -1,6 +1,11 @@
 #!/bin/bash
 
 NUM_PY_THREADS=$1
+
+bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INV_COUNTY_*.TXT.bz2
+bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INVENTOR_*.TXT.bz2
+bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/usgs_data/AllNames_*.txt.bz2
+
 cd carra_prep2/dat_to_xml
 ./get_uspto_data.sh
 cd ../xml_rewrite
