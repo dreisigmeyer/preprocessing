@@ -5,6 +5,8 @@ NUM_PY_THREADS=$1
 bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INV_COUNTY_*.TXT.bz2
 bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INVENTOR_*.TXT.bz2
 bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/usgs_data/AllNames_*.txt.bz2
+bzip2 -dk home/efw/git-code/preprocessing/assignee_prep2/uspto_data/ASG_NAMES_UPRD_*.TXT.bz2
+bzip2 -dk home/efw/git-code/preprocessing/assignee_prep2/uspto_data/PN_ASG_UPRD_*.TXT.bz2
 
 cd carra_prep2/dat_to_xml
 ./get_uspto_data.sh
