@@ -1,0 +1,45 @@
+Problem with patent 04737710 :       crossing points which are easier to detect and more accurate than a peak,
+Problem with patent 04737710 :       and also allows the use electronic devices to detect the zero crossing
+Problem with patent 04737710 :       points. The angling of limbs in opposite directions increases the
+Problem with patent 04737710 :       resolution of the device. The improved detection of the zero crossing
+Problem with patent 04737710 :       points allows the use of the device at greater radial clearances, and
+Problem with patent 04737710 :       therefore reduces the chances of damage to the strip, or the device could
+Problem with patent 04737710 :       be used when the rotational speed of the rotor is relatively low. At low
+Problem with patent 04737710 :       rotational speeds the e.m.f. pulses produced by the passing magnet fall to
+Problem with patent 04737710 :       less than 10 .mu.V, but detection of zero crossing points is still
+Problem with patent 04737710 :       possible, and at present the signal processing equipment limits the lower
+Problem with patent 04737710 :       speed limit to 160 revolutions per minute.
+Problem in directory ./rewriter/original_xml_files/pgb20020430/:
+Input is not proper UTF-8, indicate encoding !
+Bytes: 0xFE 0xD4 0x45 0xB6, line 44, column 18 (502.xml, line 44)
+Running iconv on the file...
+Success!
+Problem in directory ./rewriter/original_xml_files/pgb20020528/:
+Input is not proper UTF-8, indicate encoding !
+Bytes: 0xFE 0xD4 0x45 0xB6, line 27, column 18 (317.xml, line 27)
+Running iconv on the file...
+Success!
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1981/04294903.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1989/04861292.xml: unconverted data remains: 8
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1988/04760206.xml: time data '19861000' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1987/04641527.xml: time data '19850300' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1987/04635632.xml: time data '19840600' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1987/04680114.xml: time data '19850200' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1987/04655755.xml: time data '19851000' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1982/04358383.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1980/D0256213.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1992/05170209.xml: time data '19910200' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1992/05113883.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1992/D0331840.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1992/05113979.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1985/04527435.xml: unconverted data remains: 0
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1985/04526258.xml: time data '19820900' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1984/04426126.xml: unconverted data remains: 0
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1991/05010675.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1978/04112975.xml: time data '19770300' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1978/04097268.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1993/05187147.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1983/04398564.xml: day is out of range for month
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1976/03981920.xml: time data '19680500' does not match format '%Y%m%d'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1976/03994019.xml: 'NoneType' object has no attribute 'text'
+/home/efw/git-code/preprocessing/carra_prep2/preprocessing/carra_files/src/hold_data/pgb1994/05300216.xml: day is out of range for month
