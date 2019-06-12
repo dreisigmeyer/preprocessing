@@ -1,7 +1,14 @@
 #!/bin/bash
 
 NUM_PY_THREADS=$1
-XML_END_YEAR=$2
+
+# last year of USPTO data to download - starts at 2002 with default the current year
+if [ $# -gt 1 ]
+then
+    XML_END_YEAR=$2
+else
+    XML_END_YEAR=`date +"%Y"`
+fi
 
 # unpack and download data
 bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INV_COUNTY_*.TXT.bz2
