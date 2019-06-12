@@ -1,6 +1,7 @@
 #!/bin/bash
 
 NUM_PY_THREADS=$1
+XML_END_YEAR=$2
 
 # unpack and download data
 bzip2 -dk carra_prep2/preprocessing/gbd_metadata/data/uspto_data/INV_COUNTY_*.TXT.bz2
@@ -11,7 +12,7 @@ bzip2 -dk assignee_prep2/uspto_data/PN_ASG_UPRD_*.TXT.bz2
 cd carra_prep2
 ./dat_to_xml/get_uspto_data.sh &
 PID1=$!
-./xml_rewrite/get_uspto_data.sh &
+./xml_rewrite/get_uspto_data.sh $XML_END_YEAR &
 PID2=$!
 wait $PID1 $PID2
 
